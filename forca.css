@@ -1,0 +1,39 @@
+body{
+				margin: 0px;
+}
+header, div, footer{
+				display: flex;
+				justify-content: center;
+}
+#cima{
+				height: 100px;
+				width: 100%;
+				margin: 0px 0px 10px 0px;
+}
+#multiplayer{
+	height: 60px;
+	width: 100px;
+	position: absolute;
+	left: 90%;
+}
+#erros,#acertos{
+				line-height: 30px;
+				text-align: center;
+}
+#prompt{
+				display: inline-block;
+				background-color: white;
+				border: 1px solid black;
+				border-radius: 25px;
+				height: 60px;
+				width: 80px;
+				margin-top: 10px;
+				background-color: #9cbfd0;
+}
+#prompt:hover{
+				border: 1px black outset;
+}
+#espaços{
+				letter-spacing: 15px;
+				font-size: 20pt;
+}
